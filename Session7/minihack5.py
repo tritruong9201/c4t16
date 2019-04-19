@@ -3,7 +3,7 @@ i=0
 while True:
     a1=random.randint(-10,20)
     a2=random.randint(-10,20)
-    bien=random.randint(-5,5)
+    bien=random.randint(-4,4)
     a3=a1+a2+bien
     print(a1,"+",a2,"=",a3)
     n=str(input("Nhap D hoac S: "))
