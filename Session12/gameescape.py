@@ -54,7 +54,7 @@ while True:
             else:
                 print("YOU NEED KEYS TO ESCAPE")
         else:
-            print("YOU NEED KEYS TO ESCAPE THE DUNGEON")
+            print("YOU NEED KEYS TO ESCAPE")
     yourmove=input("Your move: ").upper()
     dx=0
     dy=0
