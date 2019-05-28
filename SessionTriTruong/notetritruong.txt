@@ -1,4 +1,0 @@
-This is a test
-Hello, world
-For testing purpose
-Good luck
