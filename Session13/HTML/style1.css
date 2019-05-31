@@ -1,0 +1,46 @@
+.classblack {
+    color: black;
+}
+.classhuge {
+    font-size: 220px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    line-height: 10%;
+}
+
+.classblue {
+    color: blue;
+    text-decoration: underline;
+    text-decoration: blue;
+    font-size: 20px;
+}
+
+.classchoice {
+    font-size: 30px;
+}
+
+#Title1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#Title2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#Sentence1 {
+    font-size: 20px;
+    text-align: justify;
+}
+
+#Sentence2 {
+    font-size:15px;
+    text-align: justify;
+}
+
+.classpos {
+    position: relative;
+    left: 290px;
+}

@@ -1,0 +1,14 @@
+h2 {
+    color: red;
+    font-size: 50px;
+}
+p {
+    color: green;
+    font-size:40px;
+}
+#sentence_need {
+    color: blue;
+}
+.Something {
+    text-align: right; 
+}
