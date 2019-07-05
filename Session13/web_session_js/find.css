@@ -1,0 +1,10 @@
+.rect {
+    width: 100px;
+    height: 80px;
+    background-color: bisque;
+    margin: 20px;
+}
+
+.red {
+    background-color: red;
+}
