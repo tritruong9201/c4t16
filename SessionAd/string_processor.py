@@ -1,5 +1,9 @@
 from stack import Stack
+
 class StringProcessor:
+    def __init__(self):
+        pass
+
     def reverse(self,string):
         stack=Stack()
         for s in string:
@@ -8,6 +12,7 @@ class StringProcessor:
         while stack.is_empty()==False:
             re+=stack.pop()
         return re
+
     def binary_string(self,string):
         stack=Stack()
         while string>0:
@@ -21,6 +26,17 @@ class StringProcessor:
         while stack.is_empty()==False:
             nu+=str(stack.pop())
         return nu
+
+    def process_sequence(self,string):
+        stack=Stack()
+        result=""
+        for s in string:
+            if s =="*":
+                result+=stack.pop()
+            else:
+                stack.push(s)
+        return s
+
     def is_balanced(self,string):
         stack=Stack()
         i1=0
