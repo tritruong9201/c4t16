@@ -35,7 +35,7 @@ class StringProcessor:
                 result+=stack.pop()
             else:
                 stack.push(s)
-        return s
+        return result
 
     def is_balanced(self,string):
         stack=Stack()
