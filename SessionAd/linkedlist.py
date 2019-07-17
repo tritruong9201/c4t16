@@ -1,10 +1,10 @@
 class Node:
-    def __init__(content,next_node):
+    def __init__(self,content,next):
         self.content = content
-        self.next_node = next_node
+        self.next = next
 
 class LinkedList:
-    def __init__(self,head):
+    def __init__(self):
         self.head = None
 
     def __str__(self):
@@ -34,9 +34,9 @@ class LinkedList:
 
     def remove_first(self):
         current = self.head.next
-        result_content = current.content
+        result_content = current
         result_next = current.next
-        node = Node(current.content,current.next)
+        node = Node(current,current.next)
         node.next = current.next
         self.head = node
         return Node(result_content,result_next)
@@ -50,3 +50,6 @@ class LinkedList:
         result_content = current.content
         current.content = None
         return Node(result_content,None)
+
+    def find(self):
+        pass
