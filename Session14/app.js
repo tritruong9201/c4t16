@@ -1,5 +1,7 @@
 var index;
 var score = 0;
+
+
 function generateColor() {
     var r = Math.floor(Math.random()*226);
     var g = Math.floor(Math.random()*226);
@@ -42,6 +44,7 @@ function generateColor() {
     };
 };
 
+
 function setupEvent() {
     var ballContainerEl = document.getElementById("ball_container");
     var ballEls = ballContainerEl.getElementsByClassName("ball");
@@ -60,6 +63,7 @@ function setupEvent() {
         });
     };
 };
+
 
 generateColor();
 setupEvent();

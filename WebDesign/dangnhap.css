@@ -1,0 +1,66 @@
+body{
+	font-family: arial,serif;
+	font-size: 16px;
+	background-color: #FFFFFF;
+}
+#toanbo{
+	background-color: rgb(205, 216, 230);
+	width: 1200px;
+	margin: 0 auto; 
+	height: 650px;
+	}
+
+#logo{
+	width: 600px;
+	height: 100px;
+	background-color: rgb(255, 47, 203);
+}
+
+#box{
+    margin: 0 auto;
+	width: 600px;
+	border: 3px solid #0a5f86;
+	border-radius: 5px;
+	box-shadow: 0px 3px 3px rgba(0,0,1);
+}
+
+.tieude{
+	background-color: rgb(57, 81, 219);
+	color: rgb(255, 255, 255);
+	font-weight: bold; 
+	padding: 5px;
+	text-align: center;
+}
+
+.noidung{
+	background-color: #4ea9ff;
+	padding: 5px; 
+	text-align: justify;
+	text-align: center; 
+}
+
+.noidung a{
+	text-decoration: none;
+	color:  #FFFFFF;
+}
+
+.noidung a:hover{
+	color:  #FFFFFF;
+	font-size: 18px;
+}
+
+#back{
+	background-color: rgb(57, 81, 219);
+	font-weight: bold;
+	height: 20px;
+	padding: 5px;
+}
+
+#back a{
+	text-decoration: none;
+	color:  #FFFFFF;
+}
+
+#back a:hover{
+	font-size: 18px;
+}
