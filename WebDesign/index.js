@@ -5,7 +5,8 @@ function myFunction() {
 };
 
 var search_value = document.getElementById("search_value");
+var Result = search_value.value;
 
 function SearchFunction() {
-    alert(search_value);
+    alert(Result);
 };
